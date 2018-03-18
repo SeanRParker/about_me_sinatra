@@ -2,14 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.1)
-    colorize (0.7.7)
     method_source (0.8.2)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    rack (1.6.9)
+    rack-protection (1.5.5)
       rack
     sinatra (1.4.7)
       rack (~> 1.5)
@@ -22,12 +21,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  colorize (~> 0.7.7)
   pry (~> 0.10.3)
+  rack-protection (= 1.5.5)
   sinatra (~> 1.4.7)
 
 RUBY VERSION
-   ruby 2.2.2p95
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.3
+   1.16.1

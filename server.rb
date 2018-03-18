@@ -1,6 +1,6 @@
 require 'pry'
 require 'sinatra'
-require 'colorize'
+
 
 get '/' do
   erb :about_me
